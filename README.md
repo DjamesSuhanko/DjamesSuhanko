@@ -6,3 +6,6 @@
 - ![T-Display S3 com TFT_eSPI](https://www.dobitaobyte.com.br/t-display-s3-com-tft_espi/)
 - ![Imagem RGB565 para ST7789](https://www.dobitaobyte.com.br/imagem-rgb565-para-st7789/)
 <!-- BLOG-POST-LIST:END -->
+
+<!-- YOUTUBE-POST-LIST:START -->
+<!-- YOUTUBE-POST-LIST:END -->
