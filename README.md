@@ -1,1 +1,1 @@
-![Welcome to Do bit Ao Byte]("https://github.com/DjamesSuhanko/DjamesSuhanko/blob/main/dobitaobyte-github.jpg")
+![Welcome to Do bit Ao Byte](./dobitaobyte-github.jpg)
