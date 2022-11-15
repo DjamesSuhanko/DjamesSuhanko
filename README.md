@@ -3,9 +3,9 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [T-Display S3 e TFT_eSPI – Colisão de objetos](https://www.dobitaobyte.com.br/t-display-s3-e-tft_espi-colisao-de-objetos/)
 - [TFT_eSPI #02 – Imagem em camadas](https://www.dobitaobyte.com.br/tft_espi-02-imagem-em-camadas/)
 - [T-Display S3 com TFT_eSPI](https://www.dobitaobyte.com.br/t-display-s3-com-tft_espi/)
-- [Imagem RGB565 para ST7789](https://www.dobitaobyte.com.br/imagem-rgb565-para-st7789/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
