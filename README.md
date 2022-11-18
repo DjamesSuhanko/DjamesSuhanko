@@ -10,9 +10,9 @@
 
 ### Vídeos mais atuais do canal
 <!-- YOUTUBE-POST-LIST:START -->
+- [T Display S3 - colisão de objetos](https://www.youtube.com/watch?v=VjoNu9SCD40)
 - [T-Display S3 - Tutorial #01](https://www.youtube.com/watch?v=CCTERa9nWV0)
 - [Como criar imagem para display com EasyMaker &lpar;+ esteganografia&rpar;](https://www.youtube.com/watch?v=gb42V88JtKU)
 - [formigas me mordam! #shorts](https://www.youtube.com/watch?v=eDAWG5GbpuQ)
 - [Display HMI Stone - Melhor que Nextion?](https://www.youtube.com/watch?v=JfAOIki4iYo)
-- [MX Vertical vs MX Ergo vs MX Master 3](https://www.youtube.com/watch?v=n8DNsI5ilbo)
 <!-- YOUTUBE-POST-LIST:END -->
