@@ -3,9 +3,9 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [EasyMaker Animation Studio](https://www.dobitaobyte.com.br/easymaker-animation-studio/)
 - [Exibir gif animado no T-Display S3](https://www.dobitaobyte.com.br/exibir-gif-animado-no-t-display-s3/)
 - [T-Display S3 e TFT_eSPI – Colisão de objetos](https://www.dobitaobyte.com.br/t-display-s3-e-tft_espi-colisao-de-objetos/)
-- [TFT_eSPI #02 – Imagem em camadas](https://www.dobitaobyte.com.br/tft_espi-02-imagem-em-camadas/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
