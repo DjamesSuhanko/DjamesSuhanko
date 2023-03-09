@@ -3,9 +3,9 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Animação 2D: Moho ou Cartoon Animator?](https://www.dobitaobyte.com.br/animacao-2d-moho-ou-cartoon-animator/)
 - [T-QT Pro – Só podia ser LILYGO!](https://www.dobitaobyte.com.br/t-qt-pro-so-podia-ser-lilygo/)
 - [EasyMaker-AS –  Criar animações](https://www.dobitaobyte.com.br/easymaker-as-criar-animacoes/)
-- [Animação no T-Display com EasyMaker-AS](https://www.dobitaobyte.com.br/animacao-no-t-display-com-easymaker-as/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
