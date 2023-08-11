@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Como configurar a WiFi da Raspberry Pi Pico W](https://www.dobitaobyte.com.br/como-configurar-a-wi-fi-da-raspberry-pi-pico-w)
 - [Raspberry Pi Camera HD - Essa é imbatível!](https://www.dobitaobyte.com.br/raspberry-pi-camera-hd-essa-e-imbativel)
 - [Arduino UNO R4 WiFi - Uma nova era!](https://www.dobitaobyte.com.br/arduino-uno-r4-wi-fi)
 - [Desenvolvedor WEB](https://www.dobitaobyte.com.br/desenvolvedor-web)
 - [Como validar CPF começado com 0 ?](https://www.dobitaobyte.com.br/como-validar-cpf-comecado-com-0)
-- [Animação 2D: Moho ou Cartoon Animator?](https://www.dobitaobyte.com.br/animacao-2d-moho-ou-cartoon-animator)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
