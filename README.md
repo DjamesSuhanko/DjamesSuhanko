@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Koboto - Mais que um Arduino Leonardo](https://www.dobitaobyte.com.br/koboto-mais-que-um-arduino-leonardo)
 - [RP2040 Zero com MicroPython](https://www.dobitaobyte.com.br/rp-2040-zero-com-micro-python)
 - [Como configurar a WiFi da Raspberry Pi Pico W](https://www.dobitaobyte.com.br/como-configurar-a-wi-fi-da-raspberry-pi-pico-w)
 - [Raspberry Pi Camera HD - Essa é imbatível!](https://www.dobitaobyte.com.br/raspberry-pi-camera-hd-essa-e-imbativel)
 - [Arduino UNO R4 WiFi - Uma nova era!](https://www.dobitaobyte.com.br/arduino-uno-r4-wi-fi)
-- [Desenvolvedor WEB](https://www.dobitaobyte.com.br/desenvolvedor-web)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
