@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Sensor de temperatura e umidade AHT21B](https://www.dobitaobyte.com.br/sensor-de-temperatura-e-umidade-aht-21-b)
 - [Shell script com Linux - O mundo escondido](https://www.dobitaobyte.com.br/shell-script-com-linux-o-mundo-escondido)
 - [Sensor de umidade e temperatura SHT3x](https://www.dobitaobyte.com.br/sensor-de-umidade-e-temperatura-sht-3x)
 - [Koboto - Mais que um Arduino Leonardo](https://www.dobitaobyte.com.br/koboto-mais-que-um-arduino-leonardo)
 - [RP2040 Zero com MicroPython](https://www.dobitaobyte.com.br/rp-2040-zero-com-micro-python)
-- [Como configurar a WiFi da Raspberry Pi Pico W](https://www.dobitaobyte.com.br/como-configurar-a-wi-fi-da-raspberry-pi-pico-w)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
