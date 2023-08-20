@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Manipulação da matriz de LEDS do UNO R4](https://www.dobitaobyte.com.br/manipulacao-da-matriz-de-leds-do-uno-r4)
+- [Como controlar a matriz de LEDs do UNO R4](https://www.dobitaobyte.com.br/como-controlar-a-matriz-de-leds-do-uno-r4)
 - [Sensor de temperatura e umidade AHT21B](https://www.dobitaobyte.com.br/sensor-de-temperatura-e-umidade-aht-21-b)
 - [Shell script com Linux - O mundo escondido](https://www.dobitaobyte.com.br/shell-script-com-linux-o-mundo-escondido)
 - [Sensor de umidade e temperatura SHT3x](https://www.dobitaobyte.com.br/sensor-de-umidade-e-temperatura-sht-3x)
-- [Koboto - Mais que um Arduino Leonardo](https://www.dobitaobyte.com.br/koboto-mais-que-um-arduino-leonardo)
-- [RP2040 Zero com MicroPython](https://www.dobitaobyte.com.br/rp-2040-zero-com-micro-python)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
