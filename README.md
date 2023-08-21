@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Display  two wire TM1637 com Arduino](https://www.dobitaobyte.com.br/display-two-wire-tm-1637-com-arduino)
 - [Display HMI da Stone - Tudo o que você precisa saber](https://www.dobitaobyte.com.br/display-hmi-da-stone-tudo-o-que-voce-precisa-saber)
 - [Manipulação da matriz de LEDS do UNO R4](https://www.dobitaobyte.com.br/manipulacao-da-matriz-de-leds-do-uno-r4)
 - [Como controlar a matriz de LEDs do UNO R4](https://www.dobitaobyte.com.br/como-controlar-a-matriz-de-leds-do-uno-r4)
 - [Sensor de temperatura e umidade AHT21B](https://www.dobitaobyte.com.br/sensor-de-temperatura-e-umidade-aht-21-b)
-- [Shell script com Linux - O mundo escondido](https://www.dobitaobyte.com.br/shell-script-com-linux-o-mundo-escondido)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
