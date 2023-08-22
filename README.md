@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Stone Designer e upload para o display Stone HMI](https://www.dobitaobyte.com.br/stone-designer-e-upload-para-o-display-stone-hmi)
 - [Conversor para matriz de LEDs do Arduino UNO R4](https://www.dobitaobyte.com.br/conversor-para-matriz-de-le-ds-do-arduino-uno-r4)
 - [Display  two wire TM1637 com Arduino](https://www.dobitaobyte.com.br/display-two-wire-tm-1637-com-arduino)
 - [Display HMI da Stone - Tudo o que você precisa saber](https://www.dobitaobyte.com.br/display-hmi-da-stone-tudo-o-que-voce-precisa-saber)
 - [Manipulação da matriz de LEDS do UNO R4](https://www.dobitaobyte.com.br/manipulacao-da-matriz-de-leds-do-uno-r4)
-- [Como controlar a matriz de LEDs do UNO R4](https://www.dobitaobyte.com.br/como-controlar-a-matriz-de-leds-do-uno-r4)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
