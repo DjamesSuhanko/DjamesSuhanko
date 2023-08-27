@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [RTC do Arduino UNO R4 WiFi](https://www.dobitaobyte.com.br/rtc-do-arduino-uno-r4-wi-fi)
+- [Review do Arduino UNO R4](https://www.dobitaobyte.com.br/review-do-arduino-uno-r4)
 - [Display LCD GC9A01 redondo](https://www.dobitaobyte.com.br/display-lcd-gc-9-a01-redondo)
 - [UNO R4 - Wifi, IP público, matriz de LEDs](https://www.dobitaobyte.com.br/uno-r4-wifi-ip-publico-matriz-de-leds)
 - [Stone Designer e upload para o display Stone HMI](https://www.dobitaobyte.com.br/stone-designer-e-upload-para-o-display-stone-hmi)
-- [Conversor para matriz de LEDs do Arduino UNO R4](https://www.dobitaobyte.com.br/conversor-para-matriz-de-le-ds-do-arduino-uno-r4)
-- [Display  two wire TM1637 com Arduino](https://www.dobitaobyte.com.br/display-two-wire-tm-1637-com-arduino)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
