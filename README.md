@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
-- [Display com touch e SD com Arduino UNO R4 WiFI](https://www.dobitaobyte.com.br/display-com-touch-e-sd-com-arduino-uno-r4-wifi)
-- [RTC do Arduino UNO R4 WiFi](https://www.dobitaobyte.com.br/rtc-do-arduino-uno-r4-wi-fi)
-- [Review do Arduino UNO R4](https://www.dobitaobyte.com.br/review-do-arduino-uno-r4)
-- [Display LCD GC9A01 redondo](https://www.dobitaobyte.com.br/display-lcd-gc-9-a01-redondo)
-- [UNO R4 - Wifi, IP público, matriz de LEDs](https://www.dobitaobyte.com.br/uno-r4-wifi-ip-publico-matriz-de-leds)
+- [Osciloscópio digital multi-função DSO-TC2](https://www.manualdomaker.com/osciloscopio-digital-multi-funcao-dso-tc-2)
+- [Display com touch e SD com Arduino UNO R4 WiFI](https://www.manualdomaker.com/display-com-touch-e-sd-com-arduino-uno-r4-wifi)
+- [RTC do Arduino UNO R4 WiFi](https://www.manualdomaker.com/rtc-do-arduino-uno-r4-wi-fi)
+- [Review do Arduino UNO R4](https://www.manualdomaker.com/review-do-arduino-uno-r4)
+- [Display LCD GC9A01 redondo](https://www.manualdomaker.com/display-lcd-gc-9-a01-redondo)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
