@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Driver de motor de passo TB6600](https://www.manualdomaker.com/driver-de-motor-de-passo-tb-6600)
 - [Como identificar os  fios do motor de passo](https://www.manualdomaker.com/como-identificar-os-fios-do-motor-de-passo)
 - [Como controlar N displays SPI no mesmo barramento](https://www.manualdomaker.com/como-controlar-n-displays-spi-no-mesmo-barramento)
 - [Display ILI9341 com touch e SD - configurar o touch](https://www.manualdomaker.com/display-ili-9341-com-touch-e-sd-configurar-o-touch)
 - [Sonda lógica LP-1 &lpar;Digital Logic Probe&rpar;](https://www.manualdomaker.com/sonda-logica-lp-1-digital-logic-probe)
-- [DAC do Arduino UNO R4 WiFi - tocar música](https://www.manualdomaker.com/dac-do-arduino-uno-r4-wifi-tocar-musica)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
