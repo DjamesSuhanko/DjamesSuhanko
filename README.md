@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [SquareLine Studio - Criar interface com LVGL](https://www.manualdomaker.com/square-line-studio-criar-interface-com-lvgl)
 - [LilyGo T-HMI](https://www.manualdomaker.com/lily-go-t-hmi)
 - [Driver de motor de passo TB6600](https://www.manualdomaker.com/driver-de-motor-de-passo-tb-6600)
 - [Como identificar os  fios do motor de passo](https://www.manualdomaker.com/como-identificar-os-fios-do-motor-de-passo)
 - [Como controlar N displays SPI no mesmo barramento](https://www.manualdomaker.com/como-controlar-n-displays-spi-no-mesmo-barramento)
-- [Display ILI9341 com touch e SD - configurar o touch](https://www.manualdomaker.com/display-ili-9341-com-touch-e-sd-configurar-o-touch)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
