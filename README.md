@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Criar interface com SquareLine Studio e VS Code](https://www.manualdomaker.com/article/criar-interface-com-square-line-studio-e-vs-code)
 - [SquareLine Studio - Criar interface com LVGL](https://www.manualdomaker.com/article/square-line-studio-criar-interface-com-lvgl)
 - [LilyGo T-HMI](https://www.manualdomaker.com/article/lily-go-t-hmi)
 - [Driver de motor de passo TB6600](https://www.manualdomaker.com/article/driver-de-motor-de-passo-tb-6600)
 - [Como identificar os  fios do motor de passo](https://www.manualdomaker.com/article/como-identificar-os-fios-do-motor-de-passo)
-- [Como controlar N displays SPI no mesmo barramento](https://www.manualdomaker.com/article/como-controlar-n-displays-spi-no-mesmo-barramento)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
