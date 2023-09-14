@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Qual RF usar? HC12 ou SX1278?](https://www.manualdomaker.com/article/qual-rf-usar-hc-12-ou-sx-1278/)
+- [Como conectar ao Linux do WSL via SSH](https://www.manualdomaker.com/article/como-conectar-ao-linux-do-wsl-via-ssh/)
+- [Como fazer túnel reverso SSH](https://www.manualdomaker.com/article/como-fazer-tunel-reverso-ssh/)
 - [Manual do Maker e Do bit Ao Byte](https://www.manualdomaker.com/article/manual-do-maker-e-do-bit-ao-byte/)
 - [Criar interface com SquareLine Studio e VS Code](https://www.manualdomaker.com/article/criar-interface-com-square-line-studio-e-vs-code/)
-- [SquareLine Studio - Criar interface com LVGL](https://www.manualdomaker.com/article/square-line-studio-criar-interface-com-lvgl/)
-- [LilyGo T-HMI](https://www.manualdomaker.com/article/lily-go-t-hmi/)
-- [Driver de motor de passo TB6600](https://www.manualdomaker.com/article/driver-de-motor-de-passo-tb-6600/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
