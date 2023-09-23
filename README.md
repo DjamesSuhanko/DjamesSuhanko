@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [ESP32-S3 SPI e displays](https://www.manualdomaker.com/article/esp-32-s3-spi-e-displays/)
+- [Como usar SPI no ESP32S3](https://www.manualdomaker.com/article/como-usar-spi-no-esp-32-s3/)
+- [Como usar mais de um display SPI?](https://www.manualdomaker.com/article/como-usar-mais-de-um-display-spi/)
 - [Como unir 2 HDs/SSDs com MergerFS](https://www.manualdomaker.com/article/como-unir-2-hds-ssds-com-merger-fs/)
 - [Como unir 2 HDs/SSDs com OverlayFS](https://www.manualdomaker.com/article/como-unir-2-hds-ssds-com-overlay-fs/)
-- [Como unir 2 HDs/SSDs com UnionFS](https://www.manualdomaker.com/article/como-unir-2-hds-ssds-com-unionfs/)
-- [Kit de desenvolvimento ESP32-S3-BOX-3](https://www.manualdomaker.com/article/kit-de-desenvolvimento-esp32-s3-box-3/)
-- [Qual RF usar? HC12 ou SX1278?](https://www.manualdomaker.com/article/qual-rf-usar-hc-12-ou-sx-1278/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
