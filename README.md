@@ -12,9 +12,9 @@
 
 ### Vídeos mais atuais do canal
 <!-- YOUTUBE-POST-LIST:START -->
+- [Clínica de Repouso para Profissionais de TI](https://www.youtube.com/watch?v=Tlw0Fo4exzg)
 - [Mundo Digital : O telefone nos dias atuais](https://www.youtube.com/watch?v=oSUOf1znQPs)
 - [EasyMaker-AS - Gif animado no ESP32](https://www.youtube.com/watch?v=FxwwzkmMvfE)
 - [EasyMaker Animation Studio for x86 and MCUs](https://www.youtube.com/watch?v=3nGWqujnzlQ)
 - [T Display S3 - colisão de objetos](https://www.youtube.com/watch?v=VjoNu9SCD40)
-- [T-Display S3 - Tutorial #01](https://www.youtube.com/watch?v=CCTERa9nWV0)
 <!-- YOUTUBE-POST-LIST:END -->
