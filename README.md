@@ -3,11 +3,11 @@
 
 ### Artigos mais atuais do canal
 <!-- BLOG-POST-LIST:START -->
+- [Laboratório Maker 15 - Boroscópio](https://www.manualdomaker.com/article/laboratorio-maker-15-boroscopio/)
 - [Tipos de memória flash](https://www.manualdomaker.com/article/tipos-de-memoria-flash/)
 - [Conectividade LoRaWAN: Fundamentos e Prática](https://www.manualdomaker.com/article/conectividade-lo-ra-wan-fundamentos-e-pratica/)
 - [ESP32-S3 SPI e displays](https://www.manualdomaker.com/article/esp-32-s3-spi-e-displays/)
 - [Como usar SPI no ESP32S3](https://www.manualdomaker.com/article/como-usar-spi-no-esp-32-s3/)
-- [Como usar mais de um display SPI?](https://www.manualdomaker.com/article/como-usar-mais-de-um-display-spi/)
 <!-- BLOG-POST-LIST:END -->
 
 ### Vídeos mais atuais do canal
