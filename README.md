@@ -12,9 +12,9 @@
 
 ### Vídeos mais atuais do canal
 <!-- YOUTUBE-POST-LIST:START -->
+- [Musicool ! O melhor afinador, metrônomo e calculadora de compasso!](https://www.youtube.com/shorts/YXyh9CbOpqs)
 - [Mundo Digital : O telefone nos dias atuais](https://www.youtube.com/watch?v=oSUOf1znQPs)
 - [EasyMaker-AS - Gif animado no ESP32](https://www.youtube.com/watch?v=FxwwzkmMvfE)
 - [EasyMaker Animation Studio for x86 and MCUs](https://www.youtube.com/watch?v=3nGWqujnzlQ)
 - [T Display S3 - colisão de objetos](https://www.youtube.com/watch?v=VjoNu9SCD40)
-- [T-Display S3 - Tutorial #01](https://www.youtube.com/watch?v=CCTERa9nWV0)
 <!-- YOUTUBE-POST-LIST:END -->
