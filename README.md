@@ -39,6 +39,7 @@ Sou **Djames Suhanko**. No **Clave Sol**, reúno conteúdo, ferramentas e aplica
 
 ## Aplicativos Clave Sol.
 
+<!-- CLAVESOL-APPS:INICIO -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -77,6 +78,7 @@ Sou **Djames Suhanko**. No **Clave Sol**, reúno conteúdo, ferramentas e aplica
     </td>
   </tr>
 </table>
+<!-- CLAVESOL-APPS:FIM -->
 
 <p align="right"><a href="https://clavesol.com.br/apps/"><strong>Ver todos os aplicativos →</strong></a></p>
 
