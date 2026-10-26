@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="395" height="145" viewBox="0 0 395 145" role="img">
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061629"/><stop offset="0.58" stop-color="#0E355A"/><stop offset="1" stop-color="#061629"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1689DB"/><stop offset="0.52" stop-color="#2AD1F9"/><stop offset="1" stop-color="#8BE9FF"/></linearGradient>
+ <radialGradient id="halo"><stop offset="0" stop-color="#16A5E4" stop-opacity="0.34"/><stop offset="1" stop-color="#16A5E4" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="395" height="145" rx="26" fill="url(#night)"/>
+
+<rect x="1.5" y="1.5" width="392" height="142" rx="22" fill="none" stroke="#32A6CE" stroke-opacity=".45" stroke-width="3"/>
+<circle cx="370" cy="0" r="135" fill="url(#halo)"/>
+<text x="25" y="37" fill="#7FE8FC" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="1.9">05 / CLAVE SOL</text>
+<text x="25" y="88" fill="#F6FBFF" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700">Luthier</text>
+<text x="25" y="118" fill="#B4D6E6" font-family="Arial,Helvetica,sans-serif" font-size="18">Manutenção instrumental</text>
+<path d="M339 99 l21 0 m-8 -8 8 8 -8 8" fill="none" stroke="#68DFF7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>

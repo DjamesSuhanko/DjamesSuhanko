@@ -1,35 +1,93 @@
-# Perfil Clave Sol — atualização automática de aplicativos
+# Clave Sol — Perfil GitHub (edição visual 3)
 
-Instale este conteúdo na raiz do repositório `DjamesSuhanko/DjamesSuhanko`,
-**preservando os nomes de pastas**. O README já tem o header e o visual atual.
+## O que muda
 
-## Arquivos
+- `README.md`: substitui tabelas cinzentas por cartões gráficos clicáveis;
+- `assets/`: reaproveita o banner e adiciona cabeçalhos, manifesto, cards, badges de tecnologia, links e rodapé com a identidade azul/ciano;
+- `scripts/sync_apps.py`: consulta `https://clavesol.com.br/apps/`, atualiza os cards SVG e a seção do README;
+- `scripts/build_assets.py`: gera os assets visuais estáticos, de maneira reprodutível;
+- `.github/workflows/atualizar-apps.yml`: execução diária às 11h17 (horário de Brasília), além da opção manual;
+- `tests/`: testes de extração, idempotência, links, remoções e SVGs.
 
-- `README.md`: perfil com marcadores de início/fim ao redor da tabela.
-- `assets/header-clavesol.png`: banner original enviado na conversa.
-- `scripts/sync_apps.py`: lê `https://clavesol.com.br/apps/`.
-- `.github/workflows/atualizar-apps.yml`: roda diariamente e manualmente.
-- `requirements.txt`: BeautifulSoup4.
-- `tests/test_sync_apps.py`: testes automatizados.
+**O arquivo ZIP foi criado SEM pasta superior.** Ao extrair na raiz do repositório, os arquivos são colocados nos caminhos corretos.
 
-## Publicar
+## Antes de extrair (importante)
 
-1. Copie os arquivos para o clone do repositório de perfil, mantendo a estrutura.
-2. Execute `git add README.md assets/ scripts/ tests/ requirements.txt .github/workflows/atualizar-apps.yml`.
-3. Execute `git commit -m "Automatiza catálogo de apps Clave Sol"` e `git push origin main`.
-4. Verifique em GitHub > Settings > Actions > General se Actions está habilitado.
-5. Se necessário, em `Workflow permissions` marque `Read and write permissions`.
-6. Em GitHub > Actions > **Atualizar apps no perfil** > **Run workflow**, execute manualmente.
-7. Veja o resultado em `DjamesSuhanko/DjamesSuhanko`.
+Acesse a pasta local do repositório `DjamesSuhanko/DjamesSuhanko` e sincronize o branch `main` **antes** de sobrescrever arquivos:
 
-A execução automática está marcada para 14:17 UTC (11:17 UTC-3),
-uma vez por dia. A hora efetiva pode variar por atrasos do GitHub Actions.
-O script só altera a tabela entre os marcadores no README. Se não houver
-novidades, não há commit diário. Para evitar que o GitHub suspenda o
-agendamento de repositórios públicos após 60 dias de inatividade, o workflow
-faz um commit vazio somente após 35 dias sem commits. Esse commit não
-modifica o conteúdo do README.
+```bash
+git status --short
+git pull --rebase origin main
+```
 
-Caso o HTML da página `/apps/` mude, confira o seletor dos títulos
-`<h3><a href="https://...clavesol.com.br/">...</a></h3>` e o parágrafo
-`<p>` de descrição no script. Se a coleta falhar, o README não será alterado.
+Se `git status --short` mostrar alterações suas não commitadas, guarde-as ou faça commit antes do pull.
+
+## Instalação
+
+Coloque o ZIP onde preferir e, **dentro da pasta raiz do repositório**, execute:
+
+```bash
+unzip -o /caminho/para/clavesol-perfil-v3.zip
+```
+
+`-o` sobrescreve somente os caminhos que já existem no pacote, preservando outros arquivos.
+
+Faça commit e publique:
+
+```bash
+git add -A -- README.md assets/ scripts/ tests/ requirements.txt .github/workflows/atualizar-apps.yml INSTRUCOES.md
+git commit -m "Redesenha perfil Clave Sol com cards SVG automáticos"
+git push origin main
+```
+
+Se `git push` informar `fetch first`, o GitHub Actions pode ter alterado o remoto enquanto você trabalhava. Com o commit local já criado, execute:
+
+```bash
+git pull --rebase origin main
+git push origin main
+```
+
+Se houver conflito, resolva-o antes do `push`. **Não use `git push --force`.**
+
+## Ative e confira
+
+1. Em `Settings → Actions → General → Workflow permissions`, confirme **Read and write permissions**.
+2. Abra `Actions → Atualizar apps no perfil → Run workflow`.
+3. Confirme que as etapas de testes e atualização passaram e abra o perfil.
+
+## Como é mantido
+
+O script altera **somente** o trecho:
+
+```html
+<!-- CLAVESOL-APPS:INICIO -->
+<!-- CLAVESOL-APPS:FIM -->
+```
+
+e os cards `assets/apps/app-*.svg` que ele próprio gerou. Imagens de outras pastas não são removidas.
+
+- Novos apps no site: novos cartões gerados automaticamente.
+- Mudança de nome, descrição ou URL: cartão atualizado; nomes de arquivo podem mudar.
+- Remoção de app: cartão obsoleto removido e lista reordenada.
+- URLs `http` são normalizadas para `https`, já que os subdomínios do Clave Sol utilizam HTTPS.
+- Sem mudança: **sem commit diário**.
+- Depois de 35 dias sem atividade, o workflow tenta manter seu agendamento ativo com um commit vazio (GitHub pode desabilitar agendamentos em repositórios públicos inativos por 60 dias).
+
+## Personalização de cores
+
+Edite `scripts/build_assets.py` (paleta e composição dos painéis estáticos) ou `scripts/sync_apps.py`, função `svg_card` (cards de aplicativos). Depois, execute localmente:
+
+```bash
+python scripts/build_assets.py
+python -m pip install -r requirements.txt
+python scripts/sync_apps.py
+```
+
+O último comando consulta o site. Todos os SVGs são locais, sem fontes externas nem CSS remoto.
+
+## Escopo e limitações
+
+- O GitHub controla o fundo do README, mas os SVGs têm fundo próprio e funcionam tanto no tema claro quanto no escuro.
+- Os cartões de **Projetos em destaque** são uma curadoria estática; a **vitrine de todos os apps** é automática. Os links em destaque podem ser alterados no README.
+- A montagem inicial foi feita a partir das seis entradas vistas no site em 26/10/2026; o primeiro GitHub Actions consulta o HTML atual e sincroniza de novo.
+- Outros repositórios, GitHub Pages, Cloudflare e domínios não são alterados.

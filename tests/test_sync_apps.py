@@ -1,51 +1,82 @@
+import tempfile
 import unittest
-from scripts.sync_apps import extrair_apps, criar_tabela, atualizar_readme
+import xml.etree.ElementTree as ET
+from pathlib import Path
+
+from scripts.sync_apps import (App, extrair_apps, slug_app, html_cards,
+                               atualizar_readme, svg_card, sincronizar)
 
 
-PAGINA = """<html><main>
+HTML = '''<html><main>
 <article><h3><a href="https://musicool.clavesol.com.br/">Musicool</a></h3>
-<p>Afinador &amp; metrônomo.</p><a href="https://musicool.clavesol.com.br/">Conhecer o aplicativo →</a></article>
+<p>Para músicos: Afinador, notas, metrônomo e mais.</p></article>
 <article><h3><a href="http://myluthier.clavesol.com.br/">MyLuthier</a></h3>
-<p>Treino e afinação.</p></article>
+<p>Treino de embocadura, arcada e relatório de afinação do instrumento.</p></article>
+<article><h3><a href="https://cantuscaeli.clavesol.com.br/">CantusCaeli</a></h3>
+<p>Hinário digital com player para visitas e cultos sem músicos.</p></article>
+<article><h3><a href="https://emet.clavesol.com.br/">Emet - Bíblia Digital</a></h3>
+<p>Uma bíblia digital sem propagandas, para não atrapalhar a comunhão.</p></article>
 <article><h3><a href="https://mose.clavesol.com.br/">Mose</a></h3>
-<p>Transpositor de partituras.</p></article>
-</main></html>"""
+<p>Transpositor de Partituras.</p></article>
+<article><h3><a href="https://partitool.clavesol.com.br/">Partitool</a></h3>
+<p>PDF - Lilypond - XMLMusic</p></article>
+</main></html>'''
 
 
-class TesteSyncApps(unittest.TestCase):
-    def test_extrai_apps_e_normaliza_url(self):
-        apps = extrair_apps(PAGINA)
-        self.assertEqual([app.nome for app in apps], ["Musicool", "MyLuthier", "Mose"])
-        self.assertEqual(apps[0].descricao, "Afinador & metrônomo.")
-        self.assertEqual(apps[1].url, "https://myluthier.clavesol.com.br/")
+class TestSync(unittest.TestCase):
+    def test_extracao_seis_apps_http_normalizado(self):
+        apps = extrair_apps(HTML)
+        self.assertEqual(len(apps), 6)
+        self.assertEqual(apps[1].url, 'https://myluthier.clavesol.com.br/')
+        self.assertEqual(apps[-1].nome, 'Partitool')
 
-    def test_tabela_tem_badges_duas_colunas_e_escapa_html(self):
-        tabela = criar_tabela(extrair_apps(PAGINA))
-        self.assertIn("Afinador &amp; metrônomo.", tabela)
-        self.assertIn("img.shields.io/badge/", tabela)
-        self.assertEqual(tabela.count('<td width="50%" valign="top">'), 4)
+    def test_cards_sem_bordas_de_tabela(self):
+        cards = html_cards(extrair_apps(HTML))
+        self.assertNotIn('<table>', cards)
+        self.assertEqual(cards.count('<p align="center">'), 3)
+        self.assertEqual(cards.count('<a href='), 6)
 
-    def test_preserva_outras_secoes_e_e_idempotente(self):
-        inicio = "Banner\n<!-- CLAVESOL-APPS:INICIO -->\nvelho\n<!-- CLAVESOL-APPS:FIM -->\nRodapé"
-        apps = extrair_apps(PAGINA)
-        novo = atualizar_readme(inicio, apps)
-        self.assertTrue(novo.startswith("Banner"))
-        self.assertTrue(novo.endswith("Rodapé"))
-        self.assertEqual(novo, atualizar_readme(novo, apps))
+    def test_readme_preservado_entre_marcadores(self):
+        original = 'HEADER\n<!-- CLAVESOL-APPS:INICIO -->\nANTES\n<!-- CLAVESOL-APPS:FIM -->\nFOOTER'
+        novo = atualizar_readme(original, extrair_apps(HTML))
+        self.assertTrue(novo.startswith('HEADER'))
+        self.assertTrue(novo.endswith('FOOTER'))
+        self.assertNotIn('ANTES', novo)
+        self.assertEqual(novo, atualizar_readme(novo, extrair_apps(HTML)))
 
-    def test_falha_segura_sem_apps(self):
+    def test_svg_valido_e_escapado(self):
+        app = App('Nome <App> & Música', 'ABC & DEF <script>alert(1)</script>', 'https://ok.clavesol.com.br/')
+        svg = svg_card(app, 1)
+        ET.fromstring(svg)
+        self.assertNotIn('<script>', svg)
+        self.assertIn('&lt;script&gt;', svg)
+
+    def test_sync_recria_e_remove_so_cards_gerados(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            readme = root/'README.md'
+            cards = root/'assets/apps'
+            cards.mkdir(parents=True)
+            (cards/'meu-cartao.svg').write_text('NÃO MEXER', encoding='utf-8')
+            readme.write_text('A\n<!-- CLAVESOL-APPS:INICIO -->\nX\n<!-- CLAVESOL-APPS:FIM -->\nB', encoding='utf-8')
+            apps = extrair_apps(HTML)
+            self.assertTrue(sincronizar(apps, readme, cards))
+            self.assertFalse(sincronizar(apps, readme, cards))
+            self.assertEqual(len(list(cards.glob('app-*.svg'))), 6)
+            self.assertTrue(sincronizar(apps[:-1], readme, cards))
+            self.assertEqual(len(list(cards.glob('app-*.svg'))), 5)
+            self.assertTrue((cards/'meu-cartao.svg').exists())
+
+    def test_muda_descricao_sem_alterar_links(self):
+        a1 = extrair_apps(HTML)[0]
+        a2 = App(a1.nome, 'Outra descrição', a1.url)
+        self.assertEqual(slug_app(a1), slug_app(a2))
+        self.assertNotEqual(svg_card(a1, 1), svg_card(a2, 1))
+
+    def test_falha_segura_para_html_malformado(self):
         with self.assertRaises(ValueError):
-            extrair_apps("<html><h3>Nada aqui</h3></html>")
-
-    def test_falha_segura_sem_marcadores(self):
-        with self.assertRaises(ValueError):
-            atualizar_readme("README sem marcadores", extrair_apps(PAGINA))
-
-    def test_nao_importa_links_externos(self):
-        pagina = PAGINA.replace("https://mose.clavesol.com.br/", "https://outro-site.com/")
-        with self.assertRaises(ValueError):
-            extrair_apps(pagina)
+            extrair_apps('<h3>Sem apps aqui</h3>')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()

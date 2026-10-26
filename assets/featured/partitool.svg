@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="310" viewBox="0 0 540 310" role="img">
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061629"/><stop offset="0.58" stop-color="#0E355A"/><stop offset="1" stop-color="#061629"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1689DB"/><stop offset="0.52" stop-color="#2AD1F9"/><stop offset="1" stop-color="#8BE9FF"/></linearGradient>
+ <radialGradient id="halo"><stop offset="0" stop-color="#16A5E4" stop-opacity="0.34"/><stop offset="1" stop-color="#16A5E4" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="540" height="310" rx="26" fill="url(#night)"/>
+
+<rect x="1.5" y="1.5" width="537" height="307" rx="25" fill="none" stroke="#2D8EB6" stroke-opacity=".47" stroke-width="3"/>
+<circle cx="487" cy="15" r="176" fill="url(#halo)"/>
+<g opacity=".33"><path d="M330 30 C406 11 483 50 560 25" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M330 43 C406 24 483 63 560 38" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M330 56 C406 37 483 76 560 51" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M330 69 C406 50 483 89 560 64" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M330 82 C406 63 483 102 560 77" fill="none" stroke="#2AD1F9" stroke-width="2"/></g><g transform="translate(462 101) scale(0.75)" opacity="0.65">
+<ellipse cx="-8" cy="18" rx="13" ry="9" transform="rotate(-21 -8 18)" fill="#35DEFF"/>
+<path d="M3 17 V-51 Q35 -54 39 -26 Q34 -43 3 -33" fill="none" stroke="#35DEFF" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<text x="33" y="50" fill="#80EBFF" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" letter-spacing="2">CONVERSÃO</text>
+<text x="32" y="124" fill="#F9FDFF" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700">Partitool</text>
+<text x="33" y="187" fill="#C5DDED" font-family="Arial,Helvetica,sans-serif" font-size="25">PDF, LilyPond e formatos</text><text x="33" y="222" fill="#C5DDED" font-family="Arial,Helvetica,sans-serif" font-size="25">de partituras digitais</text>
+<rect x="32" y="254" width="230" height="37" rx="18" fill="#127AB0"/>
+<text x="51" y="279" fill="#F7FDFF" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700">EXPLORAR PROJETO  ›</text>
+<text x="498" y="270" text-anchor="end" fill="#70DDFA" opacity=".52" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="700">01</text>
+
+</svg>

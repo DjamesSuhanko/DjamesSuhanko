@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="232" viewBox="0 0 1240 232" role="img">
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061629"/><stop offset="0.58" stop-color="#0E355A"/><stop offset="1" stop-color="#061629"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1689DB"/><stop offset="0.52" stop-color="#2AD1F9"/><stop offset="1" stop-color="#8BE9FF"/></linearGradient>
+ <radialGradient id="halo"><stop offset="0" stop-color="#16A5E4" stop-opacity="0.34"/><stop offset="1" stop-color="#16A5E4" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1240" height="232" rx="26" fill="url(#night)"/>
+
+<rect x="1.5" y="1.5" width="1237" height="229" rx="25" fill="none" stroke="#2D8EB6" stroke-opacity=".47" stroke-width="3"/>
+<g opacity=".31"><path d="M20 33 C420 14 820 53 1220 28" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M20 46 C420 27 820 66 1220 41" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M20 59 C420 40 820 79 1220 54" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M20 72 C420 53 820 92 1220 67" fill="none" stroke="#2AD1F9" stroke-width="2"/><path d="M20 85 C420 66 820 105 1220 80" fill="none" stroke="#2AD1F9" stroke-width="2"/></g>
+<circle cx="620" cy="22" r="335" fill="url(#halo)"/>
+<g transform="translate(180 104) scale(0.85)" opacity="0.65">
+<ellipse cx="-8" cy="18" rx="13" ry="9" transform="rotate(-21 -8 18)" fill="#35DEFF"/>
+<path d="M3 17 V-51 Q35 -54 39 -26 Q34 -43 3 -33" fill="none" stroke="#35DEFF" stroke-width="5" stroke-linejoin="round"/>
+</g><g transform="translate(1070 99) scale(0.9)" opacity="0.65">
+<ellipse cx="-8" cy="18" rx="13" ry="9" transform="rotate(-21 -8 18)" fill="#35DEFF"/>
+<path d="M3 17 V-51 Q35 -54 39 -26 Q34 -43 3 -33" fill="none" stroke="#35DEFF" stroke-width="5" stroke-linejoin="round"/>
+</g>
+<text x="620" y="92" text-anchor="middle" fill="#F7FCFF" font-family="Arial,Helvetica,sans-serif" font-size="61" font-weight="700">Clave <tspan fill="#40D8FA">Sol</tspan></text>
+<text x="620" y="138" text-anchor="middle" fill="#89EDFF" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="3.5">APRENDER. TOCAR. COMPARTILHAR.</text>
+<text x="620" y="188" text-anchor="middle" fill="#CAE0EF" font-family="Arial,Helvetica,sans-serif" font-size="25">Da primeira nota ao próximo ensaio.</text>
+
+</svg>
