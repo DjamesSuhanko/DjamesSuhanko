@@ -45,36 +45,36 @@ Sou **Djames Suhanko**. No **Clave Sol**, reúno conteúdo, ferramentas e aplica
     <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://musicool.clavesol.com.br/">Musicool</a></h3>
-      <p>Para músicos: afinador, notas, metrônomo e mais.</p>
+      <p>Para músicos: Afinador, notas, metrônomo e mais.</p>
       <p><a href="https://musicool.clavesol.com.br/">Conhecer o aplicativo →</a></p>
     </td>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://myluthier.clavesol.com.br/">MyLuthier</a></h3>
-      <p>Treino de embocadura, arcada e relatório de afinação do instrumento.</p>
-      <p><a href="https://myluthier.clavesol.com.br/">Conhecer o aplicativo →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://cantuscaeli.clavesol.com.br/">CantusCaeli</a></h3>
       <p>Hinário digital com player para visitas e cultos sem músicos.</p>
       <p><a href="https://cantuscaeli.clavesol.com.br/">Conhecer o aplicativo →</a></p>
     </td>
-    <td valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://emet.clavesol.com.br/">Emet — Bíblia Digital</a></h3>
-      <p>Uma Bíblia digital sem propagandas, para não atrapalhar a comunhão.</p>
-      <p><a href="https://emet.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <h3><a href="https://emet.clavesol.com.br">Emet - Bíblia Digital</a></h3>
+      <p>Uma bíblia digital sem propagandas, para não atrapalhar a comunhão.</p>
+      <p><a href="https://emet.clavesol.com.br">Conhecer o aplicativo →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>APLICATIVOS CLAVE SOL</sub>
+      <h3><a href="https://mose.clavesol.com.br">Mose</a></h3>
+      <p>Transpositor de Partituras.</p>
+      <p><a href="https://mose.clavesol.com.br">Conhecer o aplicativo →</a></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://mose.clavesol.com.br/">Mose</a></h3>
-      <p>Transpositor de partituras.</p>
-      <p><a href="https://mose.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <h3><a href="https://partitool.clavesol.com.br/">Partitool</a></h3>
+      <p>PDF - Lilypond - XMLMusic</p>
+      <p><a href="https://partitool.clavesol.com.br/">Conhecer o aplicativo →</a></p>
     </td>
   </tr>
 </table>
