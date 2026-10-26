@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./header-clavesol.png" alt="Clave Sol Music" />
+  <img src="header-clavesol.png" alt="Clave Sol Music" />
 </p>
 <div align="center">
 
