@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./assets/header-clavesol.png" alt="Clave Sol Music" />
+</p>
 <div align="center">
 
   <p><sub><strong>MÚSICA PARA APRENDER, PRATICAR E COMPARTILHAR</strong></sub></p>
