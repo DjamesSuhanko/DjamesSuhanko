@@ -11,7 +11,7 @@ import argparse
 from dataclasses import dataclass
 from html import escape
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 from bs4 import BeautifulSoup
@@ -34,7 +34,7 @@ def baixar_html() -> str:
     requisicao = Request(
         SITE,
         headers={
-            "User-Agent": "ClaveSol-GitHub-Profile-Sync/1.0 (+https://github.com/DjamesSuhanko)",
+            "User-Agent": "ClaveSol-GitHub-Profile-Sync/2.0 (+https://github.com/DjamesSuhanko)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )
@@ -63,11 +63,13 @@ def extrair_apps(html: str) -> list[App]:
         url = urljoin(SITE, link["href"].strip())
         partes = urlparse(url)
         dominio = (partes.hostname or "").lower()
-        if partes.scheme != "https" or not dominio.endswith(".clavesol.com.br"):
+        if partes.scheme not in ("http", "https") or not dominio.endswith(".clavesol.com.br"):
             continue
 
+        # normaliza em https para publicar no README
+        url = f"https://{dominio}/"
+
         nome = link.get_text(" ", strip=True)
-        # Busca a descrição até o próximo título, sem alcançar outro card.
         prox = titulo.find_next(["p", "h2", "h3", "h4"])
         if prox is None or prox.name != "p":
             raise ValueError(f"Descrição não encontrada para: {nome}")
@@ -81,7 +83,6 @@ def extrair_apps(html: str) -> list[App]:
             urls.add(url)
             apps.append(App(nome=nome, descricao=descricao, url=url))
 
-    # Protege contra página de erro, layout alterado ou resposta parcial.
     if len(apps) < 3:
         raise ValueError(
             f"Encontrei apenas {len(apps)} app(s) na página; "
@@ -90,19 +91,41 @@ def extrair_apps(html: str) -> list[App]:
     return apps
 
 
+def badge_url(label: str, *, style: str = "for-the-badge", color: str = "123A6D",
+              logo: str | None = None, logo_color: str = "7AF1FF") -> str:
+    texto = quote(label, safe="")
+    logo_parte = f"&logo={quote(logo, safe='')}" if logo else ""
+    return (
+        f"https://img.shields.io/badge/{texto}-{color}?style={style}"
+        f"{logo_parte}&logoColor={logo_color}"
+    )
+
+
+def criar_card(app: App) -> list[str]:
+    nome = escape(app.nome)
+    url = escape(app.url, quote=True)
+    descricao = escape(app.descricao)
+    return [
+        '      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>',
+        f'      <a href="{url}"><img alt="{nome}" src="{badge_url(app.nome, logo="googleplay")}"></a>',
+        f"      <p>{descricao}</p>",
+        f'      <p><a href="{url}"><img alt="Conhecer {nome}" src="{badge_url("Conhecer o aplicativo", style="flat-square", color="07172C", logo="googlechrome")}"></a></p>',
+    ]
+
+
 def criar_tabela(apps: list[App]) -> str:
     linhas = ["<table>"]
     for posicao in range(0, len(apps), 2):
         grupo = apps[posicao:posicao + 2]
         linhas.append("  <tr>")
         for app in grupo:
-            coluna = ' width="50%"' if len(grupo) == 2 else ' colspan="2"'
+            linhas.append('    <td width="50%" valign="top">')
+            linhas.extend(criar_card(app))
+            linhas.append("    </td>")
+        if len(grupo) == 1:
             linhas.extend([
-                f'    <td{coluna} valign="top">',
-                "      <sub>APLICATIVOS CLAVE SOL</sub>",
-                f'      <h3><a href="{escape(app.url, quote=True)}">{escape(app.nome)}</a></h3>',
-                f"      <p>{escape(app.descricao)}</p>",
-                f'      <p><a href="{escape(app.url, quote=True)}">Conhecer o aplicativo →</a></p>',
+                '    <td width="50%" valign="top">',
+                "      &nbsp;",
                 "    </td>",
             ])
         linhas.append("  </tr>")
