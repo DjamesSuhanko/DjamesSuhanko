@@ -43,44 +43,44 @@ Sou **Djames Suhanko**. No **Clave Sol**, reúno conteúdo, ferramentas e aplica
 <table>
   <tr>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://musicool.clavesol.com.br/">Musicool</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://musicool.clavesol.com.br/"><img alt="Musicool" src="https://img.shields.io/badge/Musicool-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>Para músicos: Afinador, notas, metrônomo e mais.</p>
-      <p><a href="https://musicool.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <p><a href="https://musicool.clavesol.com.br/"><img alt="Conhecer Musicool" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://myluthier.clavesol.com.br/">MyLuthier</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://myluthier.clavesol.com.br/"><img alt="MyLuthier" src="https://img.shields.io/badge/MyLuthier-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>Treino de embocadura, arcada e relatório de afinação do instrumento.</p>
-      <p><a href="https://myluthier.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <p><a href="https://myluthier.clavesol.com.br/"><img alt="Conhecer MyLuthier" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://cantuscaeli.clavesol.com.br/">CantusCaeli</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://cantuscaeli.clavesol.com.br/"><img alt="CantusCaeli" src="https://img.shields.io/badge/CantusCaeli-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>Hinário digital com player para visitas e cultos sem músicos.</p>
-      <p><a href="https://cantuscaeli.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <p><a href="https://cantuscaeli.clavesol.com.br/"><img alt="Conhecer CantusCaeli" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://emet.clavesol.com.br">Emet - Bíblia Digital</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://emet.clavesol.com.br/"><img alt="Emet - Bíblia Digital" src="https://img.shields.io/badge/Emet%20-%20B%C3%ADblia%20Digital-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>Uma bíblia digital sem propagandas, para não atrapalhar a comunhão.</p>
-      <p><a href="https://emet.clavesol.com.br">Conhecer o aplicativo →</a></p>
+      <p><a href="https://emet.clavesol.com.br/"><img alt="Conhecer Emet - Bíblia Digital" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://mose.clavesol.com.br">Mose</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://mose.clavesol.com.br/"><img alt="Mose" src="https://img.shields.io/badge/Mose-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>Transpositor de Partituras.</p>
-      <p><a href="https://mose.clavesol.com.br">Conhecer o aplicativo →</a></p>
+      <p><a href="https://mose.clavesol.com.br/"><img alt="Conhecer Mose" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
     <td width="50%" valign="top">
-      <sub>APLICATIVOS CLAVE SOL</sub>
-      <h3><a href="https://partitool.clavesol.com.br/">Partitool</a></h3>
+      <sub><strong>APLICATIVO CLAVE SOL</strong></sub><br>
+      <a href="https://partitool.clavesol.com.br/"><img alt="Partitool" src="https://img.shields.io/badge/Partitool-123A6D?style=for-the-badge&logo=googleplay&logoColor=7AF1FF"></a>
       <p>PDF - Lilypond - XMLMusic</p>
-      <p><a href="https://partitool.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+      <p><a href="https://partitool.clavesol.com.br/"><img alt="Conhecer Partitool" src="https://img.shields.io/badge/Conhecer%20o%20aplicativo-07172C?style=flat-square&logo=googlechrome&logoColor=7AF1FF"></a></p>
     </td>
   </tr>
 </table>
