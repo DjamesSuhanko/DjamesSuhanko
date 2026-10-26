@@ -50,27 +50,33 @@ Sou **Djames Suhanko**. No **Clave Sol**, reúno conteúdo, ferramentas e aplica
     </td>
     <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
+      <h3><a href="https://myluthier.clavesol.com.br/">MyLuthier</a></h3>
+      <p>Treino de embocadura, arcada e relatório de afinação do instrumento.</p>
+      <p><a href="https://myluthier.clavesol.com.br/">Conhecer o aplicativo →</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://cantuscaeli.clavesol.com.br/">CantusCaeli</a></h3>
       <p>Hinário digital com player para visitas e cultos sem músicos.</p>
       <p><a href="https://cantuscaeli.clavesol.com.br/">Conhecer o aplicativo →</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://emet.clavesol.com.br">Emet - Bíblia Digital</a></h3>
       <p>Uma bíblia digital sem propagandas, para não atrapalhar a comunhão.</p>
       <p><a href="https://emet.clavesol.com.br">Conhecer o aplicativo →</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://mose.clavesol.com.br">Mose</a></h3>
       <p>Transpositor de Partituras.</p>
       <p><a href="https://mose.clavesol.com.br">Conhecer o aplicativo →</a></p>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <sub>APLICATIVOS CLAVE SOL</sub>
       <h3><a href="https://partitool.clavesol.com.br/">Partitool</a></h3>
       <p>PDF - Lilypond - XMLMusic</p>
