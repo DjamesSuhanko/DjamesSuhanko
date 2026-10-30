@@ -40,6 +40,9 @@ Sou <strong>Djames Suhanko</strong>. No <strong>Clave Sol</strong>, reúno parti
   <a href="https://mose.clavesol.com.br/"><img src="./assets/apps/app-mose-ef2fde0.svg" alt="Mose — Transpositor de Partituras." width="49%" /></a>
   <a href="https://partitool.clavesol.com.br/"><img src="./assets/apps/app-partitool-24db203.svg" alt="Partitool — PDF - Lilypond - XMLMusic" width="49%" /></a>
 </p>
+<p align="center">
+  <a href="https://midi.clavesol.com.br/"><img src="./assets/apps/app-piano-player-5b31c02.svg" alt="Piano Player — Sintetizador online de midis, com download." width="49%" /></a>
+</p>
 <!-- CLAVESOL-APPS:FIM -->
 
 <p align="center"><a href="https://clavesol.com.br/apps/"><strong>CONHECER TODOS OS APLICATIVOS · clavesol.com.br/apps →</strong></a></p>
